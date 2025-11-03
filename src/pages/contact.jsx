@@ -7,7 +7,7 @@ export default function Contact() {
   const [sending, setSending] = useState(false);
 
   const SERVICE_ID = "service_yzdwu3q";
-  const TEMPLATE_ID = "template_xchauuc";
+  const TEMPLATE_ID = "template_25jgrob";
   const PUBLIC_KEY = "N8s0VhP6EBw8qOVXe";
 
   useEffect(() => {

@@ -12,6 +12,14 @@ const HomeSection = () => {
     return () => clearInterval(interval);
   }, []);
 
+  // ✅ Function to scroll to About section
+  const handleScrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -19,10 +27,12 @@ const HomeSection = () => {
       style={{ backgroundImage: "url('/our image.png')" }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
+
       <div className="relative z-10 text-white">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 -mt-2">
           I am Fekadu
         </h1>
+
         <div className="h-10 md:h-12 overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.p
@@ -37,7 +47,11 @@ const HomeSection = () => {
             </motion.p>
           </AnimatePresence>
         </div>
-        <button className="mt-8 bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg transition-all duration-300">
+
+        <button
+          onClick={handleScrollToAbout}
+          className="mt-8 bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg transition-all duration-300"
+        >
           ABOUT ME
         </button>
       </div>

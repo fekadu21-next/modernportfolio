@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import {
-  FaTelegramPlane,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Header({ isMenuOpen, toggleMenu }) {
   const [active, setActive] = useState("Home");

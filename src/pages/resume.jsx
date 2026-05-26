@@ -72,7 +72,7 @@ export default function Resume() {
               </li>
 
               <li>
-                🌐 Portfolio: yourportfolio.com
+                🌐 Portfolio: https://buildwithfekadu.vercel.app/
               </li>
             </ul>
           </div>
@@ -130,7 +130,7 @@ export default function Resume() {
 
               <p>
                 <strong>Database:</strong> MySQL,
-                MongoDB
+                MongoDB,Postgresql
               </p>
 
               <p>
@@ -162,7 +162,7 @@ export default function Resume() {
               </h3>
 
               <h4 className="italic text-gray-600">
-                Brana Software Solution — Addis Ababa
+                fanaye technology place — Addis Ababa
               </h4>
 
               <p className="text-gray-600 mb-3">

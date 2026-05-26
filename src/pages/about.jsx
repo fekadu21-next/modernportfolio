@@ -4,7 +4,7 @@ export default function About() {
   const skills = [
     { name: "Node.js", level: "90%" },
     { name: "Python", level: "80%" },
-    { name: "Tailwind CSS", level: "90%" },
+    { name: "react native", level: "80%" },
     { name: "React.js", level: "90%" },
     { name: "JavaScript", level: "85%" },
     { name: "Laravel", level: "80%" },
@@ -39,7 +39,7 @@ export default function About() {
         {/* Image */}
         <div className="shadow-md w-full md:w-1/2 rounded-lg overflow-hidden">
           <img
-            src="/me.png"
+            src="/me.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

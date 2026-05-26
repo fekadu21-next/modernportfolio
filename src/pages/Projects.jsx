@@ -12,33 +12,33 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Task Management System",
+    title: "Task Management System for software companies ",
     description:
       "A full-stack web app for managing tasks with real-time updates, notifications, and role-based dashboards using Laravel API and React.",
     tech: ["React", "Laravel", "MySQL", "Pusher"],
     icon: <FaServer className="text-teal-500 text-6xl" />,
-    github: "https://github.com/yourusername/task-manager",
+    github: "https://github.com/fekadu21-next/taskManageemnt.git",
     demo: "https://your-task-manager-demo.netlify.app",
   },
   {
     id: 2,
-    title: "Inventory Management App",
+    title: "Multi Restaurant food delivery Management System",
     description:
-      "A business inventory solution built with Laravel Livewire for managing products, restocks, and orders efficiently.",
+      "an ai powered multi restaurant food delivery management system restaurant owners register as restaurant and ahve thier own dashboard and with system admin customers order food and raid services ",
     tech: ["Laravel", "Livewire", "TailwindCSS", "MySQL"],
     icon: <FaLaravel className="text-red-500 text-6xl" />,
-    github: "https://github.com/yourusername/inventory-app",
-    demo: "https://inventory-demo.vercel.app",
+    github: "https://github.com/fekadu21-next/multi_reataurant.git",
+    demo: "https://adisseats.vercel.app/",
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Gebeya scan mobile application ",
     description:
-      "A modern and animated personal portfolio showcasing projects, contact info, and skills using React, Tailwind, and Framer Motion.",
-    tech: ["React", "TailwindCSS", "Framer Motion"],
+      "a modern multi shop mobile application for  shops and other small business used for manage the business sells and products with having scan barcode and QR code also debt management with two users owners and employees with dashboard used by many shops. ny one can install using demo link below",
+    tech: ["Reactnative", "TailwindCSS", "nodejs", "mongodb"],
     icon: <FaReact className="text-sky-400 text-6xl animate-spin-slow" />,
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.vercel.app",
+    github: "https://github.com/fekadu21-next/Gebeya_scan.git",
+    demo: "https://expo.dev/accounts/fike19/projects/gebeya-scan/builds/e1dd1261-a6b0-46b2-b602-380eb109f90f",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function Projects() {
         </motion.h1>
         <div className="w-16 h-1 bg-teal-400 mx-auto mb-4"></div>
         <p className="text-gray-700 dark:text-gray-300 text-lg italic">
-          Building impactful full-stack applications with clean design &
+          Building impactful  ai powerd full-stack applications with clean design &
           efficient code
         </p>
       </div>

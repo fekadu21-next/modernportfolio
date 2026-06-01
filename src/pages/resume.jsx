@@ -268,12 +268,12 @@ export default function Resume() {
 
               <div>
                 <h3 className="font-semibold">
-                  Modern Portfolio Website
+                  project management system
                 </h3>
 
                 <p>
-                  Responsive portfolio application built
-                  with React.js and Tailwind CSS.
+                  full stack project management system
+                  with React.js,Tailwind CSS  laravel and postgresql.
                 </p>
               </div>
             </div>

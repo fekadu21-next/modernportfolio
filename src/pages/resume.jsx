@@ -91,10 +91,10 @@ export default function Resume() {
               <h4 className="italic text-gray-600 mt-1">
                 Debre Berhan University
               </h4>
-
+              {/* 
               <p className="text-gray-600 mb-3">
                 Expected Graduation: 2026
-              </p>
+              </p> */}
 
               <p className="text-gray-700 leading-7">
                 Specialized in software engineering,

@@ -120,7 +120,7 @@ export default function Resume() {
 
               <p>
                 <strong>Backend:</strong> Node.js,
-                Express.js, Laravel, REST APIs
+                Express.js, Laravel, REST APIs,fast api
               </p>
 
               <p>
@@ -135,7 +135,7 @@ export default function Resume() {
 
               <p>
                 <strong>Tools:</strong> Git, GitHub,
-                VS Code, Postman, NetBeans
+                VS Code, Postman
               </p>
 
               <p>
@@ -165,9 +165,9 @@ export default function Resume() {
                 fanaye technology place — Addis Ababa
               </h4>
 
-              <p className="text-gray-600 mb-3">
+              {/* <p className="text-gray-600 mb-3">
                 2025 – Present
-              </p>
+              </p> */}
 
               <ul className="list-disc list-inside text-gray-700 space-y-2 leading-7">
                 <li>
